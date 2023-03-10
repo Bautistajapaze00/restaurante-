@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background:rgba(21, 21, 21, 0.8);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
+    width: 100%;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 0px 5px;
+    position: relative;
+    left: 40%;
+    bottom: 50px;
+
+}
+nav img{
+    position: relative;
+    left: 0%;
+    bottom: 0%;
+    width: 150px;
+}
+.textoimg{
+    position: relative;
+    bottom: 800px;
+    left: 570px;
+    color: white;
+    margin: 5px;
+}
+hr{
+    position: relative;
+    bottom: 800px;
+    width: 100%;
+}
+h3{
+    text-align: center;
+}
+.chef{
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    left: 27%;
+    width: 100%;
+}
+footer{
+    background:rgba(21, 21, 21, 0.8); 
+    padding: 15px;
+
+}
+footer img{
+    position: relative;
+    left: 44%;
+    width: 200px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 0px 5px;
+    position: relative;
+    left: 30%;
+}
+.centrado{
+    text-align: center;
+}
+.chat{
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: blue;
+
+}
+
+@media all and (min-width:360px) and (max-width:777px) {
+ box-sizing: border-box;
+    .imgcomida{
+     width: 120%;
+ }
+ hr{
+     position: relative;
+     bottom: 123px;
+     width: 120%;
+ }
+ .textoimg{
+     position: relative;
+     bottom: 123px;
+     left: 15px;
+     font-size: 10px;
+     text-align: center;
+ }
+ .chef{
+     width: 100%;
+     position: relative;
+     left: -30%;
+     padding: 0px;
+ }
+ .kk{
+     text-align: center;
+     position: relative;
+     left: 5px;
+     width: 95%;
+     font-size: 12px;
+     margin-bottom: 10px;
+    
+ }
+ nav a{
+    position: relative;
+    bottom: 26px;
+    left: 10%;
+
+}
+nav img{
+    width: 50px;
+}
+nav{
+    width: 82.95%;
+    padding: 0px;
+    position:fixed
+}
+footer{
+    width: 100%;
+
+}
+footer img{
+    width: 100px;
+    position: relative;
+    bottom: 20px;
+}
+footer a{
+    position: relative;
+    left: 20px;
+}
+.chat{
+    display: none;
+}
+}
